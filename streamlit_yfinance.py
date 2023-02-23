@@ -4,7 +4,7 @@ import streamlit as st
 
 st.write("""
 # Simple stock price app
-Shown are the stock price and closing price and volume of Google
+Shown are the stock price and **closing** price and **volume** of Google
 """)
 
 data = yf.Ticker('GOOGL')
